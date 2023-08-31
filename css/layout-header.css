@@ -3,7 +3,6 @@
     max-width: 1296px;
 }
 header{
-	height: 80px;
     padding: 25px 0;
 	display: flex;
 	justify-content: space-between;
@@ -32,5 +31,4 @@ header{
 }
 .Bar-list-item{
 	width: 80px;
-	height: 30px;
 }
