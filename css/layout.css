@@ -1,0 +1,28 @@
+body{
+	font-family: 'Bruno Ace SC', cursive;
+	font-family: 'Castoro', serif;
+	font-family: 'Noto Sans TC', sans-serif;
+	line-height: 1.5;
+}
+.df{
+	display: flex;
+}
+.fz20{
+	font-size: 20px;
+	color: white;
+}
+.fz36{
+	font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*要轉換scss*/

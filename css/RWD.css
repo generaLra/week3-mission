@@ -1,0 +1,37 @@
+
+@media (max-width:375px) {
+
+    .topBar{
+        display: block;
+    }
+    .topBar-list{
+        width: 376px;
+        flex-wrap: wrap;
+    }
+    .Bar-list-item{
+        width: 188px;
+        height: 48px;
+        border: solid 1px white;  
+    }
+    
+    .footer-list{
+        display: none;
+    }
+    .footer-info,.info{
+        display: block;
+    }
+    .footer-nav-link{
+        flex-direction: row-reverse;
+    }
+    .social-link {
+        position: absolute; /* 使用絕對定位 */
+        bottom: 184; /* 距離下方的距離 */
+        right: 0; /* 距離右邊的距離 */
+        transform: translateY(50%); /* 垂直置中 */
+        }
+    
+    .contact-item{
+        font-size: 16px;
+    }
+    
+}
