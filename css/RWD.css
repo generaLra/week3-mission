@@ -2,7 +2,7 @@
 @media (max-width:768px) {
 
     .logo {
-        width: 100%; /* jacky */
+        width: 100%; /* */
         margin: 0 0 15px 15px;
       }
 
@@ -12,13 +12,13 @@
     
     .topBar-list{
         margin: 0 auto;
-        width: 100%; /* jacky */
+        width: 100%; /* */
         flex-wrap: wrap;
         /* padding-top: 15px; */
         
     }
     .Bar-list-item{
-        width: 50%; /* jacky */
+        width: 50%; /* */
         border: solid 1px white;
         padding: 25px 0;
         text-align: center;
@@ -40,7 +40,7 @@
     }
     .footer-nav-link{
         flex-direction: row-reverse;
-        padding-top: 24px
+        padding-top: 24px;
     }
     .social-link {
         position: absolute; /* 使用絕對定位 */

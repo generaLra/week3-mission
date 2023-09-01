@@ -5,7 +5,7 @@
 header{
     padding: 25px 0;
 	display: flex;
-	flex-wrap: wrap; /* jacky */
+	flex-wrap: wrap;/**/
 	justify-content: space-between;
 	align-items: center;
 	font-size: 20px;
@@ -20,7 +20,7 @@ header{
 	background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true);
 	display: block;/*因a是行內元素*/
 	background-size: contain;/*logo完整顯示*/
-	background-repeat: no-repeat; /* jacky */
+	background-repeat: no-repeat; 
 	transform:scale(1,1);transition: all 0.5s ease-out;
 
 	/*以下是隱藏logo文字必寫*/
