@@ -1,7 +1,3 @@
-.container{
-    margin: 0 auto;
-    max-width: 1296px;
-}
 header{
     padding: 25px 0;
 	display: flex;
@@ -45,3 +41,4 @@ header{
 	color: #aa0601;
 	padding: 10px 0;
 }
+

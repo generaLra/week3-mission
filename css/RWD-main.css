@@ -1,0 +1,15 @@
+@media (max-width:768px) {
+    .cont-list,.classical-list,.co-branding,.customer-ul{
+        flex-direction: column;
+    }
+
+    .cla-item{
+        width: 54%;
+    }
+    .co-item{
+        width: 60%;
+    }
+    .cus-item{
+        width: 50%;
+    }
+}

@@ -1,3 +1,132 @@
-.main{
-    padding: 30px 0;
+.main-bg{
+    max-width: 1920px;
+    height: 787px;
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
+    background-size: cover;/*等比例縮放，讓圖片可以蓋滿元素寬高*/
+    justify-content: flex-end;
+}
+.banner{
+    max-width: 1296px;
+    justify-content: flex-end;
+    padding-right: 312px;
+    margin: auto 0;
+    text-align: right;
+}
+.slogan{
+    padding-bottom: 4px;
+}
+.banner a{
+	font-size: 20px;
+	color: white;
+	background-color: #aa0601;
+	width: 104px;
+	padding: 6px 12px;
+}
+.banner a:hover{
+	color: white;
+	background-color: black;
+}
+/**/
+.cont-item img{
+    max-width: 83.33%;
+    padding-bottom: 25px;
+}
+.cont-item{
+    text-align: center;
+}
+.cont-item-title{
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+.cont-item-p{
+    text-align: left;
+    color: black;
+}
+/**/
+
+.co-bran-bg{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
+    background-size: cover;
+}
+.co-item{
+    max-width: 648px;
+}
+.co-title{
+    background-color: white;
+    padding: 8px 0;
+}
+.co-bran-bg .frame-title{
+    color: white;
+}
+.frame-title{
+    padding-bottom: 48px;
+}
+/**/
+.cus-item-body{
+    box-shadow: 2px 2px 10px #DEE2E6;
+    padding: 16px;
+}
+.cus-item-body time{
+    color: #707070;
+}
+/**/
+.form{
+    flex-direction: column;
+    align-items: center;
+    max-width: 636px;
+}
+.contact,.form-group input{
+    width: 636px;
+    margin: 0 auto;
+}
+.form-group textarea{
+    width: 636px;
+    height: 136px;
+}
+.check .inline{ /*原因權重問題導致無效*/
+    width: initial;
+}
+.input-style{
+    width: 636px;
+    background-color: #fbf2f2;
+    border: 1px solid #000; /* 黑色邊框 */
+    font-size: 16px;  
+    padding: 6px 12px;/*placeholder文字*/
+}
+.form button{
+    width: 416px;
+    height: 56px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #aa0601;
+    border: none;
+}
+
+/*改變checkbox樣式*/
+input[type=checkbox] {
+    display: none;
+}
+.check .check-box::before{
+    content:"";
+    left: 0;
+    top:2px;
+    position: absolute;
+    outline: 1px solid #333333;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+}
+.check .check-box::after{
+    display:none; 
+    content: "";
+    left: 5px;
+    top:2px;
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    border-right: 2px solid #f39800;
+    border-bottom: 2px solid #f39800;
+    transform: rotate(40deg);
 }
